@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="app-header">
+      <h1>Expense Tracker</h1>
+    </header>
+    <main class="app-content">
+      <section class="balance-section">
+        <div class="balance-card">
+          <h2>Current Balance</h2>
+          <p id="balance" class="balance-amount">$0.00</p>
+          <div class="income-expense-cards">
+            <div class="card income-card">
+              <h3>Income</h3>
+              <p id="income">$0.00</p>
+            </div>
+            <div class="card expense-card">
+              <h3>Expense</h3>
+              <p id="expense">$0.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="add-transaction">
+        <h2>Add Transaction</h2>
+        <form id="transaction-form" class="form">
+          <input type="text" id="transaction-name" placeholder="Transaction Name" class="form-input">
+          <input type="number" id="transaction-amount" placeholder="Amount" class="form-input">
+          <select id="transaction-type" class="form-select">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+          </select>
+          <button type="button" id="add-transaction" class="btn">Add</button>
+        </form>
+      </section>
+      <section class="transactions">
+        <h2>Transactions</h2>
+        <ul id="transaction-list" class="transaction-list"></ul>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
