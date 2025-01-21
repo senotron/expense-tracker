@@ -1,6 +1,6 @@
-# Demo: [Expense Tracker](https://expensetracker-senan.glitch.me)  
+# Expense Tracker 💰  
 
-# Expense Tracker 💰
+Demo: [Expense Tracker](https://expensetracker-senan.glitch.me)  
 
 A simple and beautiful Expense Tracker to manage your finances. Built with **HTML**, **CSS**, and **JavaScript**.  
 
